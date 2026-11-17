@@ -1,18 +1,17 @@
-function Assignment3_Pathfinding(mode, agentSteps)
+function Pathfinding(mode, agentSteps)
 % =========================================================================
-% EEP55C21 Cyber-Physical Systems and Control - Assignment 3
 % Pathfinding Simulation (single file, no toolboxes, no GUI)
 %
 % ENTRY POINT (this file):
-%   Assignment3_Pathfinding                 original map + Cases 1-3, animated
-%   Assignment3_Pathfinding('fast')         same, without animation pauses
-%   Assignment3_Pathfinding('run',[a b c])  choose agent step for Cases 1-3
-%   Assignment3_Pathfinding('retain')       Case 1 with agent already past the
+%   Pathfinding                 original map + Cases 1-3, animated
+%   Pathfinding('fast')         same, without animation pauses
+%   Pathfinding('run',[a b c])  choose agent step for Cases 1-3
+%   Pathfinding('retain')       Case 1 with agent already past the
 %                                           obstacle -> route kept, no replan
-%   Assignment3_Pathfinding('unreachable')  SYNTHETIC test map (not a prescribed
+%   Pathfinding('unreachable')  SYNTHETIC test map (not a prescribed
 %                                           scenario) -> "no route" handling
-%   Assignment3_Pathfinding('test')         automated verification (Section 5)
-%   Assignment3_Pathfinding('gui')          interactive GUI: random or Fig. 1 map,
+%   Pathfinding('test')         automated verification (Section 5)
+%   Pathfinding('gui')          interactive GUI: random or Fig. 1 map,
 %                                           set/randomise S and G, find path, add
 %                                           obstacles while the agent is moving
 %
