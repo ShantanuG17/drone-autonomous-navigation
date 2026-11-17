@@ -8,7 +8,7 @@ A simulation-to-hardware project exploring path planning and autonomous navigati
 
 The current MATLAB implementation is contained in one file:
 
-- `MATLAB_Simulation/Assignment3_Pathfinding.m`
+- `MATLAB_Simulation/Pathfinding.m`
 
 It uses **Breadth-First Search (BFS)** on a 2D occupancy grid.
 
