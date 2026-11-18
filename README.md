@@ -43,17 +43,17 @@ Open MATLAB, set the current folder to `MATLAB_Simulation`, and run one of the f
 
 | Command | Behaviour |
 |---|---|
-| `Assignment3_Pathfinding` | Run the original map and the three obstacle cases with animation |
-| `Assignment3_Pathfinding('fast')` | Run the same scenarios without animation pauses |
-| `Assignment3_Pathfinding('retain')` | Demonstrate retaining a still-valid route |
-| `Assignment3_Pathfinding('unreachable')` | Run the synthetic unreachable-goal test |
-| `Assignment3_Pathfinding('test')` | Run the automated verification checks |
-| `Assignment3_Pathfinding('gui')` | Open the interactive GUI |
+| `Pathfinding` | Run the original map and the three obstacle cases with animation |
+| `Pathfinding('fast')` | Run the same scenarios without animation pauses |
+| `Pathfinding('retain')` | Demonstrate retaining a still-valid route |
+| `Pathfinding('unreachable')` | Run the synthetic unreachable-goal test |
+| `Pathfinding('test')` | Run the automated verification checks |
+| `Pathfinding('gui')` | Open the interactive GUI |
 
 The optional agent-step argument can be supplied for the three scripted obstacle cases:
 
 ```matlab
-Assignment3_Pathfinding('run', [4 4 4])
+Pathfinding('run', [4 4 4])
 ```
 
 The values specify how many moves the agent makes before the obstacle is introduced in Cases 1–3.
@@ -64,7 +64,7 @@ The values specify how many moves the agent makes before the obstacle is introdu
 crazyflie-autonomous-navigation/
 ├── README.md
 └── MATLAB_Simulation/
-    └── Assignment3_Pathfinding.m
+    └── Pathfinding.m
 ```
 
 As the project develops, additional folders can be added for Crazyflie path planning, localization, obstacle detection, flight control, hardware notes, and real-world test results.
